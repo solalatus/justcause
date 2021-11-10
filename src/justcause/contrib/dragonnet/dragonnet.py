@@ -1,10 +1,10 @@
 import time
 
-import keras.backend as K
+import tensorflow.keras.backend as K
 import numpy as np
 import tensorflow as tf
-from keras.callbacks import Callback, EarlyStopping, ReduceLROnPlateau, TerminateOnNaN
-from keras.optimizers import SGD, Adam
+from tensorflow.keras.callbacks import Callback, EarlyStopping, ReduceLROnPlateau, TerminateOnNaN
+from tensorflow.keras.optimizers import SGD, Adam
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
