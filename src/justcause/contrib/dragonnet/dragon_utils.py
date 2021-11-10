@@ -1,7 +1,7 @@
 import tensorflow.keras.backend as K
 import tensorflow as tf
 from tensorflow.keras import regularizers
-from tensorflow.keras.engine.topology import Layer
+from tensorflow.keras.layers import Layer
 from tensorflow.keras.layers import Concatenate, Dense, Input
 from tensorflow.keras.metrics import binary_accuracy
 from tensorflow.keras.models import Model
